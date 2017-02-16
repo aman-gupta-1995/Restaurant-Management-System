@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2017, 4:05:59 PM
+    Author     : karthik-pc
+*/
+ #background
+{ width: 100%;
+  height: 1000px;
+  background-image: url(img/title.jpg), url(https://www.google.se/search?q=pizza.jpg&espv=2&biw=1366&bih=638&tbm=isch&imgil=48gy3DOBRlilzM%253A%253BBoEDSc_t_4Q0oM%253Bhttp%25253A%25252F%25252Fimagenpng.com%25252Fwp-content%25252Fuploads%25252F2016%25252F07%25252F%25253FSD&source=iu&pf=m&fir=48gy3DOBRlilzM%253A%252CBoEDSc_t_4Q0oM%252C_&usg=__qzLzk_V8lwfCAENBwJ2yx9pDVU0%3D&ved=0ahUKEwiYvpLR6pLSAhXDDZoKHdaGC-sQyjcIMw&ei=hKukWJjsFsOb6ATWja7YDg#imgrc=jyq6ENM5S_6s_M:) , linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: -moz-linear-gradient(to right, rgba(800, 75, 115, 1), rgba(255, 255, 255, 0)), -webkit-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), -ms-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+}
+
+            #img1{
+                height:200px;
+                width:100%;
+                
+            }
+            #logo{
+                height: 400px;
+                 width:40%;
+           position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%)
+            }
+            
+            #btn1  {
+              
+     overflow:hidden;
+              height: 6em;
+              width: 50%;
+            margin-left: 50px;
+}
+#button{
+      background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+    top: 28%;
+    right: 3%;
+    margin-right: -0%;
+    transform: translate(-50%, -50%)
+  
+  
+}
+#button1{
+        background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+   position: absolute;
+    top: 28%;
+    right: -1.5%;
+    margin-right: -0%;
+    transform: translate(-50%, -50%)
+}
+#btn2 {
+              overflow:hidden;
+              height: 6em;
+              width: 50%;
+            margin-left: 50px;
+         }
+         #setting{
+             font-size: 30px;
+             font-weight: bold;
+          
+             position: absolute;
+          top: 550%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+             
+         }
+               #settingLogin{
+             font-size: 30px;
+             font-weight: bold;
+          
+             position: absolute;
+          top: 250%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+             
+         }
+         
+       
