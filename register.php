@@ -27,7 +27,7 @@ if (isset($_POST['register'])) {
     }
      if (!preg_match("/^[0-9]+$/", $phone)) {
         $error = true;
-     $lname_error = "*Phone number must contain only numbers.";}
+     $phone_error = "*Phone number must contain only numbers.";}
     
     if (preg_match("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email)) {
         $error = false;
@@ -35,7 +35,7 @@ if (isset($_POST['register'])) {
     }
      if (!preg_match("/^\s*\S+(?:\s+\S+){2}/", $address)) {
         $error = true;
-        $email_error = "*Please Enter Valid address";
+        $address_error = "*Please Enter Valid address";
     }
        if (strlen($password) < 8) {
         $error = true;
